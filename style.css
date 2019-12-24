@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:lightgray;
+}
+
+@media only screen and (max-width:540px){
+    .small_screen{
+        margin-top:10px;
+    }
+
+}
+
+@media only screen and (min-width:960px) {
+    .large_screen{
+        margin-right:10px;
+    } 
+    .small_screen{
+        margin-bottom:8px;
+    }
+   
+
+}
